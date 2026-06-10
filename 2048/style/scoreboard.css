@@ -1,0 +1,56 @@
+.player-row {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #776e65;
+}
+
+.player-row input {
+  padding: 6px 10px;
+  margin-left: 5px;
+  border: 2px solid #bbada0;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  color: #776e65;
+  background: #faf8ef;
+}
+
+.scoreboard {
+  margin-top: 30px;
+  padding: 15px 25px 20px;
+  background: #bbada0;
+  border-radius: 6px;
+  color: #f9f6f2;
+}
+
+.scoreboard h2 {
+  margin: 0 0 12px;
+  font-size: 24px;
+  color: #f9f6f2;
+}
+
+.scoreboard ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.scoreboard ol li {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(249, 246, 242, 0.2);
+}
+
+.scoreboard ol li.me {
+  color: #edc22e;
+}
+
+.scoreboard #scoreboard-empty {
+  margin: 0;
+  font-style: italic;
+}
